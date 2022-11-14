@@ -1,8 +1,4 @@
-import { useState } from "react";
-
-function Player({ pseudo }) {
-  const [move, setMove] = useState("pierre");
-
+function Player({ pseudo, move, setMove }) {
   return (
     <>
       <h1>{pseudo}</h1>
