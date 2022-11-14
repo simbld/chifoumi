@@ -3,9 +3,9 @@ import Player from "./../components/Player";
 function Play() {
   return (
     <>
-      <Player />
+      <Player pseudo="player1" />
       vs
-      <Player />
+      <Player pseudo="player2" />
     </>
   );
 }
